@@ -26,13 +26,14 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="">
-        <div className="">
-          <nav className="bg-blue-200">
+        <div className="h-screen bg-gray-100 h-full flex flex-col">
+          <nav className=" bg-sky-300">
+            navbar
           </nav>
-          <main className="bg-blue-500">
-          </main>
+          <main className="flex-grow">
           {children}
-          <footer className="bg-blue-400 row-start-3 text-xs flex gap-6 flex-wrap items-center justify-center">
+          </main>          
+          <footer className="bg-blue-400 text-xs flex gap-6 items-center justify-center mb-0">
             Diseñado por Joluro Soft - Todos los derechos reservados
           </footer>
         </div>
